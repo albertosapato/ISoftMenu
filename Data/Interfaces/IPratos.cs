@@ -6,20 +6,20 @@ namespace Data.Interfaces
 {
     public interface IPratos : IGenericRepository<Prato>
     {
-        Task<IQueryable<Prato>> GetOrdersAsync(string userName);
+        //Task<IQueryable<Prato>> GetOrdersAsync(string userName);
 
-        Task<Order> GetOrdersAsync(int id);
+        //Task<Order> GetOrdersAsync(int id);
 
-        Task<IQueryable<OrderDetailTemp>> GetDetailTempsAsync(string userName);
+        //Task<IQueryable<OrderDetailTemp>> GetDetailTempsAsync(string userName);
 
-        Task AddItemToOrderAsync(AddItemViewModel model, string userName);
+        //Task AddItemToOrderAsync(AddItemViewModel model, string userName);
 
-        Task ModifyOrderDetailTempQuantityAsync(int id, double quantity);
+        //Task ModifyOrderDetailTempQuantityAsync(int id, double quantity);
 
-        Task DeleteDetailTempAsync(int id);
+        //Task DeleteDetailTempAsync(int id);
 
-        Task<bool> ConfirmOrderAsync(string userName);
+        //Task<bool> ConfirmOrderAsync(string userName);
 
-        Task DeliverOrder(DeliverViewModel model);
+        //Task DeliverOrder(DeliverViewModel model);
     }
 }
