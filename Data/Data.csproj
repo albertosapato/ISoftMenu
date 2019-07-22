@@ -120,7 +120,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\Helps\MenuConectionString.cs" />
     <Compile Include="Controllers\Helps\MenuContext.cs" />
+    <Compile Include="Controllers\PratosControllers.cs" />
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Interfaces\IPratos.cs" />
     <Compile Include="Models\MenuDia.cs" />
@@ -132,6 +134,7 @@
   <ItemGroup>
     <Folder Include="Helps\" />
     <Folder Include="Models\Helps\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
